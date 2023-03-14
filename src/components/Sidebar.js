@@ -1,4 +1,4 @@
-import "./styles/Sidebar.css"
+import "../styles/Sidebar.css"
 
 import SidebarOption from "./SidebarOption"
 
@@ -11,17 +11,22 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder"
 import PermIdentityIcon from "@mui/icons-material/PermIdentity"
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz"
 
+import { Button } from "@mui/material"
+
 function Sidebar() {
     return (
         <div className="sidebar">
-            <TwitterIcon />
-            <SidebarOption Icon={HomeIcon} text="Accueil" />
+            <TwitterIcon className="sidebar-twitter-icon"/>
+
+            <SidebarOption active Icon={HomeIcon} text="Accueil" />
             <SidebarOption Icon={SearchIcon} text="Explorer" />
             <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
             <SidebarOption Icon={MailOutlineIcon} text="Messages" />
             <SidebarOption Icon={BookmarkBorderIcon} text="Signets" />
             <SidebarOption Icon={PermIdentityIcon} text="Profil" />
             <SidebarOption Icon={MoreHorizIcon} text="Plus" />
+
+            <Button className="sidebar-tweet">Tweeter</Button>
         </div>
     )
 }

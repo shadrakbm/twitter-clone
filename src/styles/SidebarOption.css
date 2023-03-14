@@ -2,4 +2,25 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    width: 230px;
+}
+
+.sidebar-option:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+}
+
+.sidebar-option .MuiSvgIcon-root{
+    font-size: 30px;
+    padding: 20px;
+} 
+
+.sidebar-option h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sidebar-option-active {
+    color: var(--twitter-color);
 }

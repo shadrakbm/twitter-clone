@@ -1,3 +1,26 @@
-*{
-    margin: 0;
+.sidebar {
+    flex: 0 1 30%;
+}
+
+.sidebar .sidebar-twitter-icon {
+    color: var(--twitter-color);
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.sidebar .sidebar-tweet {
+    background-color: var(--twitter-color);
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+.sidebar .sidebar-tweet:hover {
+    background-color: #0c9ffa;
 }
