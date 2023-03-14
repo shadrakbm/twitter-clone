@@ -1,0 +1,36 @@
+.tweetbox {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid var(--twitter-background);
+}
+
+.tweetbox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetbox-input {
+    display: flex;
+    padding: 20px;
+}
+
+.tweetbox-input input {
+    flex: 1;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.tweetbox-tweet {
+    width: 100px;
+    background-color: var(--twitter-color);
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    border-radius: 30px;
+    height: 30px;
+}
+
+.tweetbox-tweet:hover {
+    background-color: #0c9ffa;
+}
