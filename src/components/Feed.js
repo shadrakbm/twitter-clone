@@ -1,6 +1,7 @@
 import "../styles/Feed.css"
 
 import Tweetbox from "./Tweetbox"
+import Post from "./Post"
 
 function Feed() {
     return (
@@ -10,6 +11,8 @@ function Feed() {
             </div>
 
             <Tweetbox />
+
+            <Post />
         </div>
     )
 }

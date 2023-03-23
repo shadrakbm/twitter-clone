@@ -1,7 +1,4 @@
 .widgets {
     flex: 0 1 30%;
-}
-
-.widgets h2 {
-    margin-top: 10px;
+    padding: 20px;
 }

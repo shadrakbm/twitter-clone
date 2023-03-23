@@ -21,16 +21,22 @@
     margin-left: 20px;
 }
 
-.tweetbox-tweet {
+.tweetbox .tweetbox-tweet {
     width: 100px;
     background-color: var(--twitter-color);
     color: white;
     font-weight: 900;
     text-transform: inherit;
     border-radius: 30px;
-    height: 30px;
+    height: 35px;
+    margin-left: auto;
 }
 
-.tweetbox-tweet:hover {
+.tweetbox .tweetbox-tweet:hover {
     background-color: #0c9ffa;
+}
+
+.tweetbox .tweetbox-url {
+    border: none;
+    padding: 10px;
 }
