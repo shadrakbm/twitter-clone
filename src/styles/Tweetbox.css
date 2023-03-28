@@ -21,6 +21,10 @@
     margin-left: 20px;
 }
 
+.tweetbox-input input:focus {
+    outline: none;
+}
+
 .tweetbox .tweetbox-tweet {
     width: 100px;
     background-color: var(--twitter-color);
@@ -39,4 +43,8 @@
 .tweetbox .tweetbox-url {
     border: none;
     padding: 10px;
+}
+
+.tweetbox .tweetbox-url:focus {
+    outline: none;
 }
